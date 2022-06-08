@@ -1,10 +1,14 @@
 import unittest
-
+from api.base import Base
 from HTMLTestRunner import HTMLTestRunner
 
 test_report = 'test_report.html'
 
 if __name__ == '__main__':
+
+    # 进行一次登录
+    base = Base()
+    base.login()
     # 创建一个套件
     suite = unittest.TestLoader().discover('cases', pattern='test*.py')
 
