@@ -1,0 +1,4 @@
+loguru == 0.6.0  日志版本信息
+cacheout == 0.13.1  缓存版本信息
+requests == 2.27.1  http请求版本信息
+pymysql == 1.0.2  数据库版本信息
